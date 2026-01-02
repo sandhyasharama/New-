@@ -17,7 +17,7 @@ h1{
     width: 420px;
     box-shadow: 0px  5px 5px gray;
     flex-direction: row;
-    margin-left: 35%;
+    margin: 0 auto;
     padding-top: 20px;
 }
 .email input{
@@ -85,6 +85,165 @@ a{
         background-color: rgb(241, 13, 13);
         transition: 0.5s ease;
     }
+
+
+.container2{
+    width: 100%;
+   max-width: 450px;
+    height: auto;
+    box-shadow: 0px 5px 5px gray;
+    display: flex;
+   flex-direction: column;
+   margin:  0 auto;
+   padding: 6px 12px;
+   margin-bottom: 30px;
+   background-color: white;
+
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: cente;
+    align-items: center;
+
+}
+.form input{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 40px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-radius: 6px ;
+    border: #dddfe2 solid 2px;
+}
+.form3 input{
+    width: 100%;
+    border-radius: 6px;
+    max-width: 420px;
+    border: #dddfe2 solid 2px;
+    height: auto;
+    max-height: 40px;
+   padding: 10px;
+    margin: 5px ;
+    font-size: 16px;
+}
+.form1{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+}
+ select{
+     padding: 10px;
+    gap: 4px;
+    width: 100%;
+    margin-right: 15px;
+    border-radius: 4px;   
+    border: 2px solid #ccd0d5 ;
+    margin: 6px;
+    color: #5f646b;
+    font-size: 16px;
+}
+.form2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.form2 label{
+    border: 2px solid #ccd0d5;
+    padding: 10px;
+    width: 100%;
+   margin: 6px;
+    color: #545960;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.terms{
+    font-size: 13px;
+    color: #606770;
+    margin-bottom: 5px;
+    display: inline;
+}
+.term2, a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(106, 101, 101);
+}
+.term2:hover{
+    text-decoration: underline;
+}
+label{
+    font-size: 12px;
+    color: #4b4f56;
+    padding: 5px;
+}
+.btn{
+    text-align: center;
+}
+.signup{
+    width: 100%;
+    max-width: 130px;
+    height: 40px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 6px;
+    border-color: aliceblue;
+}
+.footer, .footer a{
+    text-align: center;
+    color: #0e18c9;
+    margin: 5px;
+    font-size: 17px;
+}
+@media  screen and (max-width:400px) {
+    body{
+        background-color: lightcoral;
+        padding: 10px ;
+    
+    }
+    .container{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 50px;
+        box-shadow: 0px 5px 10px gray;
+    }
+   
+    .email input, .password input{
+        width: 100%;
+        font-size: 16px;
+       
+        
+    }
+    .login{
+        width: 100%;
+        font-size: 18px;
+        height: 45px;
+    }
+    .accountt {
+        padding: 15px;
+    }
+    .accountt button{
+        width: 100%;
+        font-size: 16px;
+        height: 45px;
+    }}
 @media  screen and (max-width:250px) {
     body{
         background-color: lightcoral;
@@ -99,9 +258,11 @@ a{
         padding: 20px 50px;
         box-shadow: 0px 5px 10px gray;
     }
+   
     .email input, .password input{
         width: 100%;
         font-size: 13px;
+        margin-right: 500px;
        
         
     }
@@ -118,4 +279,9 @@ a{
         font-size: 14px;
         height: 45px;
     }
-}
+
+    .container2{
+        width: 100%;
+       max-width: 100%;
+       padding: 5px;
+    }
