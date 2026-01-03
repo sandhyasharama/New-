@@ -5,7 +5,7 @@ const createAccountButton = document.getElementById('createaccount').getElements
 const messageDisplay = document.getElementById('message');
 document.getElementById("createaccount").addEventListener("click", function () {
     window.location.href = "create.html";
-})
+});
 
 // Login button click function
 loginButton.addEventListener('click', function() {
