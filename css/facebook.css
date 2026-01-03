@@ -183,3 +183,14 @@ label{
     font-size: 17px;
 }
 
+@media screen { and (max-width: 500px) {
+    .container, .container2{
+        width: 90%;
+        box-shadow: none;
+    }
+    .email input, .password input, .login, .accountt button, .form input, .form3 input, .signup{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+}
