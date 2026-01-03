@@ -35,7 +35,3 @@ loginButton.addEventListener('click', function() {
         messageDisplay.style.color="green";
     }
 });
-// Create Account button click function
-createAccountButton.addEventListener('click', function() {
-    alert("Naya account banane ka form yahan dikhayen.");
-});
