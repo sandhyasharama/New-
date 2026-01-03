@@ -182,40 +182,7 @@ label{
     margin: 5px;
     font-size: 17px;
 }
-@media  screen and (max-width:320px) {
-    body{
-        background-color: white;
-        padding: 10px ;
-    
-    }
-    .container{
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 20px 50px;
-        box-shadow: 0px 5px 10px gray;
-    }
-   
-    .email input, .password input{
-        width: 100%;
-        font-size: 16px;
-       
-        
-    }
-    .login{
-        width: 100%;
-        font-size: 18px;
-        height: 45px;
-    }
-    .accountt {
-        padding: 15px;
-    }
-    .accountt button{
-        width: 100%;
-        font-size: 16px;
-        height: 45px;
-    }}
+
 @media  screen and (max-width:250px) {
     body{
         background-color: white;
@@ -258,13 +225,11 @@ label{
        padding: 5px;
     }
     .form3 input{
-    width: 100%;
     border-radius: 6px;
     max-width: 220px;
     border: #dddfe2 solid 2px;
     height: auto;
     max-height: 40px;
-   padding: 10px;
     margin: 5px ;
-    font-size: 16px;
+   
 }}
