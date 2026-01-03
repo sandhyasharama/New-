@@ -182,9 +182,9 @@ label{
     margin: 5px;
     font-size: 17px;
 }
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:320px) {
     body{
-        background-color: lightcoral;
+        background-color: white;
         padding: 10px ;
     
     }
