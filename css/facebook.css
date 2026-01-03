@@ -175,7 +175,7 @@ label{
     margin-top: 4px;
     font-size: 17px;
 }
-@media(max-width: 480px){
+@media(max-width: 440px){
     .logo h1{
         font-size: 40px;
     }
