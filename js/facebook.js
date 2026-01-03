@@ -1,5 +1,3 @@
-// Elements ko ID ke zariye pakadna
-
 const emailInput = document.getElementById('emailname').getElementsByTagName('input')[0];
 const passwordInput = document.getElementById('passwordname').getElementsByTagName('input')[0];
 const loginButton = document.getElementById('login').getElementsByTagName('button')[0];
@@ -18,17 +16,17 @@ loginButton.addEventListener('click', function() {
         messageDisplay.textContent="please enter your email or phone number";
         messageDisplay.style.color="red";
     }
-    else if(!emailValue.includes("sandhya@gmail.com") && (isNaN(emailValue))){
-        message.innerText = "Please enter a valid email address ";
-        return;
+    else if(emailValue !== "sandhya@gmail.com"){
+        messageDisplay.textContent="Please enter a valid email address";
+        messageDisplay.style.color="red";
     }
     else if(passwordValue===""){
         messageDisplay.textContent="please enter your password";
         messageDisplay.style.color="red";
     }
-    else if(!passwordValue.includes("123456") && (isNaN(passwordValue))){
-        message.innerText = "Please enter a valid password ";
-        return;
+    else if(passwordValue !== "123456"){
+        messageDisplay.textContent="Please enter a valid password";
+        messageDisplay.style.color="red";
     }
     else{
         messageDisplay.textContent="logged in successfully";
