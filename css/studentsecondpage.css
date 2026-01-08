@@ -1,0 +1,74 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    height: 100vh;
+    background-image: url(../html/backkk.png);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   height: 600px;
+    width: 800px;
+    margin: 60px auto;
+     box-shadow: 0px 1px 1px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px 60px;
+   
+    background-color: #485a72;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    border-radius:  100px;
+    box-shadow: 70px 70px 50px #2c3e50,
+                -70px -70px 50px #6c809c;
+}
+button{
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #7b8fa9;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow:  20px 20px 30px #3b4c63,
+                 -20px -20px 30px #8c9fbf;
+}
+label{
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 8px;
+    
+  
+}
+select{
+    height: 35px;
+    width: 265px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 8px;
+}
